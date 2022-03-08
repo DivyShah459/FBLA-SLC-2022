@@ -180,9 +180,12 @@
         <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span class="w3-tag">Open from 7am to 6pm</span>
         </div>
-        <div class="w3-display-middle w3-center">
+        <div class="w3-display-middle w3-center; grow">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Biggby_Coffee_logo.svg/1200px-Biggby_Coffee_logo.svg.png" width="400" height="140" alt="Biggby Coffee">
+
         </div>
+
+
         <div class="w3-display-bottomright w3-center w3-padding-large">
             <span class="w3-text-white">660 Middlesex Avenue</span>
         </div>
@@ -197,11 +200,11 @@
         }
 
         .rotate_image_330 {
-            -webkit-transform: rotate(330deg);
-            -moz-transform: rotate(330deg);
-            -ms-transform: rotate(330deg);
-            -o-transform: rotate(330deg);
-            transform: rotate(330deg);
+            -webkit-transform: rotate(-30deg);
+            -moz-transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+            -o-transform: rotate(-30deg);
+            transform: rotate(-30deg);
         }
 
         .rotate_image_15 {
@@ -213,11 +216,11 @@
         }
 
         .rotate_image_345 {
-            -webkit-transform: rotate(345deg);
-            -moz-transform: rotate(345deg);
-            -ms-transform: rotate(345deg);
-            -o-transform: rotate(345deg);
-            transform: rotate(345deg);
+            -webkit-transform: rotate(-15deg);
+            -moz-transform: rotate(-15deg);
+            -ms-transform: rotate(-15deg);
+            -o-transform: rotate(-15deg);
+            transform: rotate(-15deg);
         }
     </style>
     <style>
@@ -229,12 +232,18 @@
     <div class="w3-sand w3-large">
         <!-- About Container -->
         <div class="w3-container" id="about">
-            <img style="float:left; top:250px; right:-50px; position:relative" class="rotate_image_30" src="https://i.ibb.co/tXjWrxN/external-coffee-coffee-shop-ju.png" alt="external-coffee-coffee-shop-ju" border="0">
-            <img style="float: right; top: 250px; left: -50px; position: relative " class="rotate_image_330" src="https://i.ibb.co/tXjWrxN/external-coffee-coffee-shop-ju.png" alt="external-coffee-coffee-shop-ju" border="0">
-            <img class="rotate_image_15" width="200" height="200" style="position:relative; float:left; left:-175px; top:1300px;" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/344/external-menu-coffee-itim2101-lineal-color-itim2101.png  ">
-            <img class="rotate_image_345" width="200" height="200" style="position:relative; float:left; left: -375px; top: 1700px; " src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/344/external-menu-coffee-shop-wanicon-lineal-color-wanicon.png  ">
-            <img class="rotate_image_345" width="200" height="200" style="position: relative; float: right; right: -175px; top: 1300px; " src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/344/external-menu-coffee-shop-wanicon-lineal-color-wanicon.png  ">
-            <img class="rotate_image_15" width="200" height="200" style="position: relative; float: right; right: -375px; top: 1700px; " src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/344/external-menu-coffee-itim2101-lineal-color-itim2101.png  ">
+            <div class="rotate15">
+                <img style="float:left; top:250px; right:-50px; position:relative" class="rotate_image_30" src="https://i.ibb.co/tXjWrxN/external-coffee-coffee-shop-ju.png" alt="external-coffee-coffee-shop-ju" border="0">
+                <img style="float: right; top: 250px; left: -50px; position: relative " class="rotate_image_330" src="https://i.ibb.co/tXjWrxN/external-coffee-coffee-shop-ju.png" alt="external-coffee-coffee-shop-ju" border="0">
+            </div>
+            <div class="rotate30">
+                <img class="rotate_image_15" width="200" height="200" style="position:relative; float:left; left:-175px; top:1300px;" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/344/external-menu-coffee-itim2101-lineal-color-itim2101.png  ">
+                <img class="rotate_image_345" width="200" height="200" style="position:relative; float:left; left: -375px; top: 1700px; " src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/344/external-menu-coffee-shop-wanicon-lineal-color-wanicon.png  ">
+                <img class="rotate_image_345" width="200" height="200" style="position: relative; float: right; right: -175px; top: 1300px; " src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/344/external-menu-coffee-shop-wanicon-lineal-color-wanicon.png  ">
+                <img class="rotate_image_15" width="200" height="200" style="position: relative; float: right; right: -375px; top: 1700px; " src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/344/external-menu-coffee-itim2101-lineal-color-itim2101.png  ">
+            </div>
+            
+
             <div class="w3-content" style="max-width:700px">
                 <h5 class="w3-center w3-padding-64"> <span class="w3-tag w3-wide"> ABOUT THE CAFE</span> </h5>
                 <p> BIGGBY® COFFEE was founded in 1995 by two friends, Bob and Mike, or BaM, for the simple purpose of loving people and sharing great coffee.</p>
@@ -386,7 +395,7 @@
 
                 <br />
 
-                
+
 
                 <left>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBiggbyCoffee.Bhappy%2Fvideos%2F483338905866694%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"> </iframe>
@@ -486,195 +495,195 @@
                     We are commited to our customers, and would love to hear your thoughts, concerns, or questions anytime.
                 </p>
 
+                <br />
+                <br><strong>Feedback</strong><br />
+                <p>We would love to hear your feedback on Biggby, so please drop any comments you have on the form below. Small or big, we would love to hear your ideas to make our Biggby family even better.</p>
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Send');" id="myLink">
+                        <div class="w3-col s6 tablink">Send Feedback</div>
+                    </a>
+                </div>
+
+                <div id="Send" class="w3-container menu w3-padding-48 w3-card">
+                    <form action="https://formsubmit.co/divyjshah@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Feedback Form Submission">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input class="w3-input w3-padding-16 w3-border" type="email" name="email" placeholder="Email Address">
+                        <br>
+                        <input class="w3-input w3-padding-16 w3-border" type="text" name="message" placeholder="Write Message">
+                        <br>
+                        <button class="w3-button w3-black" type="submit">Send</button>
+
+                    </form>
                     <br />
-                    <br><strong>Feedback</strong><br />
-                    <p>We would love to hear your feedback on Biggby, so please drop any comments you have on the form below. Small or big, we would love to hear your ideas to make our Biggby family even better.</p>
-                    <div class="w3-row w3-center w3-card w3-padding">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Send');" id="myLink">
-                            <div class="w3-col s6 tablink">Send Feedback</div>
-                        </a>
-                    </div>
-
-                    <div id="Send" class="w3-container menu w3-padding-48 w3-card">
-                        <form action="https://formsubmit.co/divyjshah@gmail.com" method="POST">
-                            <input type="hidden" name="_subject" value="Feedback Form Submission">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input class="w3-input w3-padding-16 w3-border" type="email" name="email" placeholder="Email Address">
-                            <br>
-                            <input class="w3-input w3-padding-16 w3-border" type="text" name="message" placeholder="Write Message">
-                            <br>
-                            <button class="w3-button w3-black" type="submit">Send</button>
-
-                        </form>
-                        <br />
-                        <img style="position:relative" src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-feedback-uxui-icongeek26-linear-colour-icongeek26-4.png" width="150" height="150">
-                        <p id="p"></p>
-                        <script>
-                            document.getElementById('btn').onclick = function (event) {
-                                event.target.parentNode.removeChild(event.target);
-                            }
-                        </script>
-                        <script>
-                            const btn = document.getElementById('btn');
-                            btn.addEventListener('click', function handleClick(event) {
-                                event.preventDefault();
-                                const inputs = document.querySelectorAll('#email, #comments');
-                                inputs.forEach(input => {
-                                    input.value = '';
-                                });
-                                var element2 = document.getElementById('email');
-                                var element3 = document.getElementById('comments');
-                                element2.parentNode.removeChild(email);
-                                element3.parentNode.removeChild(comments);
-                                var paragraph = document.getElementById("p");
-                                var text = document.createTextNode("Thank you for the feedback!");
-                                paragraph.appendChild(text);
+                    <img style="position:relative" src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-feedback-uxui-icongeek26-linear-colour-icongeek26-4.png" width="150" height="150">
+                    <p id="p"></p>
+                    <script>
+                        document.getElementById('btn').onclick = function (event) {
+                            event.target.parentNode.removeChild(event.target);
+                        }
+                    </script>
+                    <script>
+                        const btn = document.getElementById('btn');
+                        btn.addEventListener('click', function handleClick(event) {
+                            event.preventDefault();
+                            const inputs = document.querySelectorAll('#email, #comments');
+                            inputs.forEach(input => {
+                                input.value = '';
                             });
-                        </script>
-                    </div>
-                    <div class="w3-row w3-center w3-card w3-padding">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Contact');">
-                            <div class="w3-col s6 tablink">Contact Info</div>
-                        </a>
-                    </div>
-                    <div id="Contact" class="w3-container menu w3-padding-48 w3-card">
-                        <a href="tel:866-444-3909">866-556-2570</a>
-                        <img style="float:right; top:-20px; position:relative" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-contact-contact-us-flatart-icons-solid-flatarticons-1.png" width="150" height="150">
-                        <br />
-                        <a href="mailto: info@biggby.com">info@bigby.com</a>
-                        <br />
-                        <p>Find us at </p>
-                        <a href="https://www.google.com/maps/place/BIGGBY+COFFEE/@40.5402525,-74.3702144,17z/data=!4m13!1m7!3m6!1s0x89c3b7d049a58ec1:0x44c74268f54c7b03!2s660+Middlesex+Ave,+Metuchen,+NJ+08840!3b1!8m2!3d40.5402484!4d-74.3680257!3m4!1s0x89c3b7195e271f65:0x4672a914b87186a7!8m2!3d40.5402245!4d-74.367928">660 Middlesex Avenue</a>
-                        <br />
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=660%20middlesex%20avenue,%20metuchen,%20NJ%2008840&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 400px;
-                                        width: 400px;
-                                    }
-                                </style><a href="https://www.embedgooglemap.net"></a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 400px;
-                                        width: 400px;
-                                    }
-                                </style>
-                            </div>
+                            var element2 = document.getElementById('email');
+                            var element3 = document.getElementById('comments');
+                            element2.parentNode.removeChild(email);
+                            element3.parentNode.removeChild(comments);
+                            var paragraph = document.getElementById("p");
+                            var text = document.createTextNode("Thank you for the feedback!");
+                            paragraph.appendChild(text);
+                        });
+                    </script>
+                </div>
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Contact');">
+                        <div class="w3-col s6 tablink">Contact Info</div>
+                    </a>
+                </div>
+                <div id="Contact" class="w3-container menu w3-padding-48 w3-card">
+                    <a href="tel:866-444-3909">866-556-2570</a>
+                    <img style="float:right; top:-20px; position:relative" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-contact-contact-us-flatart-icons-solid-flatarticons-1.png" width="150" height="150">
+                    <br />
+                    <a href="mailto: info@biggby.com">info@bigby.com</a>
+                    <br />
+                    <p>Find us at </p>
+                    <a href="https://www.google.com/maps/place/BIGGBY+COFFEE/@40.5402525,-74.3702144,17z/data=!4m13!1m7!3m6!1s0x89c3b7d049a58ec1:0x44c74268f54c7b03!2s660+Middlesex+Ave,+Metuchen,+NJ+08840!3b1!8m2!3d40.5402484!4d-74.3680257!3m4!1s0x89c3b7195e271f65:0x4672a914b87186a7!8m2!3d40.5402245!4d-74.367928">660 Middlesex Avenue</a>
+                    <br />
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=660%20middlesex%20avenue,%20metuchen,%20NJ%2008840&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 400px;
+                                    width: 400px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net"></a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 400px;
+                                    width: 400px;
+                                }
+                            </style>
                         </div>
-                        <img style="float:right; top:-250px; position:relative" src="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/344/external-map-interaction-dreamstale-green-shadow-dreamstale.png" width="150" height="150">
-                        <br />
-                        <br />
-                        <strong>
-                            Follow us on Social Media!
-                        </strong>
-                        <img style="float:right; right:-100px; position:relative" src="https://img.icons8.com/external-bearicons-glyph-bearicons/344/external-Follow-social-media-bearicons-glyph-bearicons.png" width="200" height="200">
-                        <a href="https://www.instagram.com/biggbycoffee/?hl=en">
-                            <img alt="Instagram" style="border:10px; margin:10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
-                                 width="120" height="120">
-                        </a>
-                        <a href="https://www.facebook.com/BiggbyCoffeeNJ/">
-                            <img alt="Facebook" style="border:10px; margin:10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png"
-                                 width="120" height="120">
-                        </a>
-                        <a href="https://m.youtube.com/channel/UCWl2XbHSxrhlvw8MTsn8njw">
-                            <img alt="YouTube" style="border:10px; margin:10px" src="https://icon-library.com/images/youtube-round-icon-png/youtube-round-icon-png-16.jpg"
-                                 width="130" height="130">
-                        </a>
-                        <a href="https://twitter.com/BIGGBYCOFFEE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                            <img alt="Twitter" style="border:10px; margin:10px" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
-                                 width="120" height="120">
-                        </a>
                     </div>
+                    <img style="float:right; top:-250px; position:relative" src="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/344/external-map-interaction-dreamstale-green-shadow-dreamstale.png" width="150" height="150">
+                    <br />
+                    <br />
+                    <strong>
+                        Follow us on Social Media!
+                    </strong>
+                    <img style="float:right; right:-100px; position:relative" src="https://img.icons8.com/external-bearicons-glyph-bearicons/344/external-Follow-social-media-bearicons-glyph-bearicons.png" width="200" height="200">
+                    <a href="https://www.instagram.com/biggbycoffee/?hl=en">
+                        <img alt="Instagram" style="border:10px; margin:10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
+                             width="120" height="120">
+                    </a>
+                    <a href="https://www.facebook.com/BiggbyCoffeeNJ/">
+                        <img alt="Facebook" style="border:10px; margin:10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png"
+                             width="120" height="120">
+                    </a>
+                    <a href="https://m.youtube.com/channel/UCWl2XbHSxrhlvw8MTsn8njw">
+                        <img alt="YouTube" style="border:10px; margin:10px" src="https://icon-library.com/images/youtube-round-icon-png/youtube-round-icon-png-16.jpg"
+                             width="130" height="130">
+                    </a>
+                    <a href="https://twitter.com/BIGGBYCOFFEE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <img alt="Twitter" style="border:10px; margin:10px" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+                             width="120" height="120">
+                    </a>
+                </div>
             </div>
         </div>
         <!-- End page content -->
-    </div>
-    <!-- Footer -->
-    <script>
-        // Tabbed Menu
-        function openMenu(evt, menuName) {
-            var i, x, tablinks;
-            x = document.getElementsByClassName("menu");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+        </div>
+        <!-- Footer -->
+        <script>
+            // Tabbed Menu
+            function openMenu(evt, menuName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("menu");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+                }
+                document.getElementById(menuName).style.display = "block";
+                evt.currentTarget.firstElementChild.className += " w3-dark-grey";
             }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+            document.getElementById("myLink").click();
+        </script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
             }
-            document.getElementById(menuName).style.display = "block";
-            evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-        }
-        document.getElementById("myLink").click();
-    </script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
             }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .button {
-            position: relative;
-            background-color: #04AA6D;
-            border: none;
-            font-size: 28px;
-            color: #FFFFFF;
-            padding: 20px;
-            width: 200px;
-            text-align: center;
-            -webkit-transition-duration: 0.4s; /* Safari */
-            transition-duration: 0.4s;
-            text-decoration: none;
-            overflow: hidden;
-            cursor: pointer;
-        }
-
-            .button:after {
-                content: "";
-                background: #90EE90;
-                display: block;
-                position: absolute;
-                padding-top: 300%;
-                padding-left: 350%;
-                margin-left: -20px !important;
-                margin-top: -120%;
-                opacity: 0;
-                transition: all 0.8s
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .button {
+                position: relative;
+                background-color: #04AA6D;
+                border: none;
+                font-size: 28px;
+                color: #FFFFFF;
+                padding: 20px;
+                width: 200px;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
             }
 
-            .button:active:after {
-                padding: 0;
-                margin: 0;
-                opacity: 1;
-                transition: 0s
-            }
-    </style>
+                .button:after {
+                    content: "";
+                    background: #90EE90;
+                    display: block;
+                    position: absolute;
+                    padding-top: 300%;
+                    padding-left: 350%;
+                    margin-left: -20px !important;
+                    margin-top: -120%;
+                    opacity: 0;
+                    transition: all 0.8s
+                }
+
+                .button:active:after {
+                    padding: 0;
+                    margin: 0;
+                    opacity: 1;
+                    transition: 0s
+                }
+        </style>
 </body>
 </html>
